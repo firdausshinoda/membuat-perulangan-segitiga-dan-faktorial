@@ -1,0 +1,530 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+#menu li {
+   display:inline-block;
+   color: #fff;
+   float:left;
+   height:100%;
+   padding: 15px 20px;
+  }
+  #menu{
+   position:fixed;
+   top:0;
+   left:0;
+   height: 50px;
+   z-index: 70;
+   width: 100%;
+   padding:0;
+   margin:0;
+   background: rgba(51, 102, 255, 0.5);
+   text-transform:uppercase;
+   font-family: 'Open Sans', sans serif;
+   box-shadow: 0px 3px #FF8540;
+  }
+  nav{
+  	overflow: auto;
+  	display: block;
+  	color: #2196F3;
+  }
+  nav ul{
+  	list-style: none;
+  	height: 500px;
+  	/*height: 30px;*/
+  	padding: 30px;
+  	margin: 0px;
+  }
+  nav ul > li{
+  	display: inline;
+  }
+  nav ul > li > a{
+  	display: inline;
+  	padding: 8px 12px;
+  	border-right: #4072b4;
+  	text-decoration: none;
+  	color: #fff;
+  	text-transform: capitalize;
+  }
+  nav ul > li > a:hover{
+  	background-color: #4072b4;
+  }
+  .header{
+  	text-align: center;
+  	width: full;
+  	height: 100%;
+  	background: url(a.jpg) no-repeat center center fixed;
+  				-webkit-background-size: 100% 100%;
+                  -moz-background-size: 100% 100%;
+                  -o-background-size: 100% 100%;
+                  background-size: 100% 100%;
+      margin: 0;
+      padding: 10px;
+      color: #fff;
+  }
+  .circular{
+    margin-top: 180px;
+  	width: 150px;
+  	height: 150px;
+  	border-radius: 50%;
+  	box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+  	-webkit-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+  	-moz-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+  }
+  .intro-pesan {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+
+  .intro-pesan > h1 {
+      margin: 50px 0px 0px 0px;
+      text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+      font-size: 4em;
+  }
+
+  .intro-pesan > h2 {
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 2em;
+  }
+  .button2
+  {
+  display: inline-block;
+  white-space: nowrap;
+  background-color: #ddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+  background-image: -webkit-linear-gradient(top, #eee, #ccc);
+  background-image: -moz-linear-gradient(top, #eee, #ccc);
+  background-image: -ms-linear-gradient(top, #eee, #ccc);
+  background-image: -o-linear-gradient(top, #eee, #ccc);
+  background-image: linear-gradient(top, #eee, #ccc);
+  border: 1px solid #777;
+  padding: 0 1.5em;
+  margin: 0.5em;
+  font: bold 1em/2em Arial, Helvetica;
+  text-decoration: none;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  -moz-border-radius: .2em;
+  -webkit-border-radius: .2em;
+  border-radius: .2em;
+  -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+  box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+  }
+  .button2:hover
+  {
+  background-color: #eee;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+  background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
+  background-image: -moz-linear-gradient(top, #fafafa, #ddd);
+  background-image: -ms-linear-gradient(top, #fafafa, #ddd);
+  background-image: -o-linear-gradient(top, #fafafa, #ddd);
+  background-image: linear-gradient(top, #fafafa, #ddd);
+  }
+.form-segitiga{
+  width: full;
+  height: 100%;
+  background: url(bg_school3.jpg) no-repeat center center fixed;
+        -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+    margin: 0px;
+    padding: 10px;
+    color: #fff;
+  }
+.intro-segitiga{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.intro-segitiga > h1{
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 40px;
+}
+.fm-segitiga1{
+  margin: 0px 0px 0px 50px;
+  padding: 0px;
+  width: 45%;
+	height: 70%;
+  background: url(bg_papan2.png) no-repeat top center;
+				-webkit-background-size: 100% 80%;
+                -moz-background-size: 100% 80%;
+                -o-background-size: 100% 80%;
+                background-size: 100% 80%;
+	float: left;
+}
+.segitiga-script1{
+  padding: 0px;
+  margin: 50px 0px 0px 60px;
+  font-size: 30px;
+  text-align: left;
+}
+.fm-segitiga2{
+  margin: 0px 0px 0px 50px;
+  padding: 0px;
+  width: 45%;
+	height: 70%;
+  background: url(bg_papan.png) no-repeat center center;
+				-webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+	float: left;
+}
+.segitiga-script2{
+  padding: 0px;
+  margin: 50px 0px 0px 60px;
+  font-size: 20px;
+  text-align: left;
+}
+.kaki-sgt{
+  font-size: 24px;
+  color: #0D47A1;
+  text-align: center;
+  width:100%;
+  height:auto;
+  background:#ccccff;
+  float:left;
+  box-shadow: 3px -2.9px #ff8540;
+}
+#sidebar{
+	width:auto;
+	height:auto;
+	background:#ccccff;
+	float:left;
+	position: fixed;
+	padding-right: 10px;
+	margin-top: 50px;
+	box-shadow: 3px 3px #ff8540;
+}
+
+ul.slider li
+{
+-webkit-transition-duration: 800ms;
+width: auto;
+height: auto;
+border:1px solid #F2F2F2;
+margin:1px;
+display: block;
+}
+
+ul.slider li:hover
+{
+margin-left: 30px;
+}
+
+ul.slider li a
+{
+-webkit-transition-duration: 800ms, 800ms, 800ms, 800ms;
+background-color: #fff;
+color: #afafaf;
+padding: 10px;
+}
+
+ul.slider li a:link, ul.slider li a
+{
+display:block;
+text-decoration:none;
+}
+
+ul.slider li a:hover
+{
+background-color: #3B5998;
+color: #D8DFEA;
+padding-left: 30px;
+z-slider: 2;
+}
+.form-for{
+  width: full;
+  height: 100%;
+  background: url(bg_school2.jpg) no-repeat center center fixed;
+        -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+  margin: 0px;
+  padding: 10px;
+  color: #fff;
+}
+  .intro-for{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  .intro-for > h1{
+    text-align: center;
+    padding: 0px;
+    margin: 100px 0px 0px 0px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 40px;
+  }
+  .fm-for1{
+    margin: 0px 0px 0px 250px;
+    padding: 0px;
+    width: 40%;
+  	height: 75%;
+    background: url(bg_papan2.png) no-repeat top center;
+  				-webkit-background-size: 100% 60%;
+                  -moz-background-size: 100% 60%;
+                  -o-background-size: 100% 60%;
+                  background-size: 100% 60%;
+  	float: left;
+  }
+  .for-script1{
+    color: #fff;
+    padding: 0px;
+    margin: 50px 0px 0px 60px;
+    font-size: 30px;
+    text-align: left;
+  }
+  .tabel-for{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+  }
+  .tabel-for tr{
+    color: white;
+    font-size: 24px;
+  }
+  .input-for{
+  	width: 230px;
+  	margin: 0px;
+  	border: none;
+  	font-size: 10pt;
+  	border-radius: 8px;
+  	border-bottom:4px solid black;
+  	padding: 10px;
+  	text-align: right;
+  }
+  .btn-for{
+  	background: #FFEB3B;
+  	text-align: center;
+  	width: 400px;
+  	border: none;
+  	font-size: 16pt;
+  	border-radius: 5px;
+  	border-bottom:4px solid #F9A825;
+  	margin: 10px 5px 5px 5px;
+  	padding: 10px;
+  }
+  .fm-for2{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    width: 40%;
+  	height: 75%;
+    background: url(bg_papan.png) no-repeat center center;
+  				-webkit-background-size: 100% 100%;
+                  -moz-background-size: 100% 100%;
+                  -o-background-size: 100% 100%;
+                  background-size: 100% 100%;
+  	float: left;
+  }
+  .for-script2{
+    color: #fff;
+    padding: 0px;
+    margin: 20px 0px 0px 20px;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .form-while{
+    width: full;
+    height: 100%;
+    background: url(bg3.jpg) no-repeat center center fixed;
+          -webkit-background-size: 100% 100%;
+                  -moz-background-size: 100% 100%;
+                  -o-background-size: 100% 100%;
+                  background-size: 100% 100%;
+    margin: 0px;
+    padding: 10px;
+    color: #fff;
+  }
+    .intro-while{
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+    }
+    .intro-while > h1{
+      text-align: center;
+      padding: 0px;
+      margin: 50px 0px 0px 0px;
+      text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+      font-size: 40px;
+    }
+    .fm-while1{
+      margin: 0px 0px 0px 250px;
+      padding: 0px;
+      width: 40%;
+    	height: 75%;
+      background: url(bg_papan2.png) no-repeat top center;
+    				-webkit-background-size: 100% 60%;
+                    -moz-background-size: 100% 60%;
+                    -o-background-size: 100% 60%;
+                    background-size: 100% 60%;
+    	float: left;
+    }
+    .while-script1{
+      color: #fff;
+      padding: 0px;
+      margin: 50px 0px 0px 60px;
+      font-size: 30px;
+      text-align: left;
+    }
+    .tabel-while{
+      color: white;
+      padding: 0px;
+      margin: 0px;
+    }
+    .tabel-while tr{
+      color: white;
+      font-size: 24px;
+    }
+    .input-while{
+    	width: 230px;
+    	margin: 0px;
+    	border: none;
+    	font-size: 10pt;
+    	border-radius: 8px;
+    	border-bottom:4px solid black;
+    	padding: 10px;
+    	text-align: right;
+    }
+    .btn-while{
+    	background: #FFEB3B;
+    	text-align: center;
+    	width: 400px;
+    	border: none;
+    	font-size: 16pt;
+    	border-radius: 5px;
+    	border-bottom:4px solid #F9A825;
+    	margin: 10px 5px 5px 5px;
+    	padding: 10px;
+    }
+    .fm-while2{
+      margin: 0px 0px 0px 0px;
+      padding: 0px;
+      width: 40%;
+    	height: 85%;
+      background: url(bg_papan.png) no-repeat center center;
+    				-webkit-background-size: 100% 100%;
+                    -moz-background-size: 100% 100%;
+                    -o-background-size: 100% 100%;
+                    background-size: 100% 100%;
+    	float: left;
+    }
+    .while-script2{
+      color: #fff;
+      padding: 0px;
+      margin: 20px 0px 0px 20px;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    .form-dowhile{
+      width: full;
+      height: 100%;
+      background: url(bg_school.jpg) no-repeat center center fixed;
+            -webkit-background-size: 100% 100%;
+                    -moz-background-size: 100% 100%;
+                    -o-background-size: 100% 100%;
+                    background-size: 100% 100%;
+      margin: 0px;
+      padding: 10px;
+      color: #fff;
+    }
+      .intro-dowhile{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      .intro-dowhile > h1{
+        text-align: center;
+        padding: 0px;
+        margin: 50px 0px 0px 0px;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 40px;
+      }
+      .fm-dowhile1{
+        margin: 0px 0px 0px 250px;
+        padding: 0px;
+        width: 40%;
+        height: 75%;
+        background: url(bg_papan2.png) no-repeat top center;
+              -webkit-background-size: 100% 60%;
+                      -moz-background-size: 100% 60%;
+                      -o-background-size: 100% 60%;
+                      background-size: 100% 60%;
+        float: left;
+      }
+      .dowhile-script1{
+        color: #fff;
+        padding: 0px;
+        margin: 50px 0px 0px 60px;
+        font-size: 30px;
+        text-align: left;
+      }
+      .tabel-dowhile{
+        color: white;
+        padding: 0px;
+        margin: 0px;
+      }
+      .tabel-dowhile tr{
+        color: white;
+        font-size: 24px;
+      }
+      .input-dowhile{
+        width: 230px;
+        margin: 0px;
+        border: none;
+        font-size: 10pt;
+        border-radius: 8px;
+        border-bottom:4px solid black;
+        padding: 10px;
+        text-align: right;
+      }
+      .btn-dowhile{
+        background: #FFEB3B;
+        text-align: center;
+        width: 400px;
+        border: none;
+        font-size: 16pt;
+        border-radius: 5px;
+        border-bottom:4px solid #F9A825;
+        margin: 10px 5px 5px 5px;
+        padding: 10px;
+      }
+      .fm-dowhile2{
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        width: 40%;
+        height: 85%;
+        background: url(bg_papan.png) no-repeat center center;
+              -webkit-background-size: 100% 100%;
+                      -moz-background-size: 100% 100%;
+                      -o-background-size: 100% 100%;
+                      background-size: 100% 100%;
+        float: left;
+      }
+      .dowhile-script2{
+        color: #fff;
+        padding: 0px;
+        margin: 20px 0px 0px 20px;
+        font-size: 14px;
+        text-align: left;
+      }
+      .kaki{
+      	font-size: 24px;
+      	color: #0D47A1;
+      	text-align: center;
+      	width:100%;
+      	height:auto;
+      	background:#ccccff;
+      	float:left;
+      	box-shadow: 3px -2.9px #ff8540;
+      }
